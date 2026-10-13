@@ -59,7 +59,7 @@ class Roles:
 
     @mowaa_forum.setter
     def mowaa_forum(self, username: str):
-        self._mowaa_forum = username.lower().replace(" ", "_")
+        self._mowaa_forum = username
 
         self.save()
 
